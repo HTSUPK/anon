@@ -97,14 +97,13 @@ print  """
 \033[1;91mInstagram\033[1;91m: \033[1;93mhttps://www.Instagram.com/Man50or
 \033[1;91mFacebook\033[1;91m: \033[1;93mhttps://www.facebook.com/HTSUsmanOfficial
 \033[1;91mWhatsapp\033[1;91m: \033[1;93m+1 (437) 371-0506
-\033[1;91m«--------------------\033[1;93m✧\033[1;91m--------------------»"""
-jalan('              \033[1;91mREAD CAREFULLY:')
-jalan("\033[1;97m   It's not in Commands Control to get a   ")
-jalan('\033[1;97m   New or Old Account,  ')
-jalan('\033[1;97m    ok ')
-jalan("\033[1;97m    OK")
-jalan("\033[1;97m   OK .")
-print "\033[1;91m«-------------\033[1;93mLogin With Tool\033[1;91m-------------»"
+print "\033[1;94m«-----------------------\033[1;97m✧✧\033[1;94m-----------------------»\033[1;97m"
+print "                 \033[7;91mREAD CAREFULLY\033[0m"
+print "\033[1;97mIt is not in Commands Control to get a New or Old"
+print "\033[1;97mAccount,It Totally Depends on Friends List And the"
+print "\033[1;97mAccount that goes to Checkpoint is due to Facebook"
+print "\033[1;97mSecurity,Tool is not Responsible for this Thing..."
+print "\033[1;94m«-----------------\033[1;95mLogin With Tool\033[1;94m----------------»"
 
 CorrectUsername = "Admin"
 CorrectPassword = "anonHTSU"
