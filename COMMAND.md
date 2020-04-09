@@ -14,7 +14,7 @@ git clone https://github.com/HTSUPK/anon
 
 cd mk
 
-python2 mk.py
+python2 fb.py
 
 You should Requst for Username & Password 
 #Dev:Muhammad_Usman
