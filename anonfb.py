@@ -99,14 +99,7 @@ print  """
 \033[1;94mGitHub\033[1;91m: \033[1;93mhttps://Github.com/HTSUPK
 \033[1;94mWhatsapp\033[1;91m: \033[1;93m+1 (437) 371-0506
 \033[1;91m«--------------------\033[1;93m✧\033[1;91m--------------------»"""
-jalan("\033[1;97m We Are Not Responsible To Wrong Use   ")
-jalan('\033[1;97m Username KHAN Password KHAN   ')
-jalan('\033[1;97m██ 39%  ')
-jalan("\033[1;97m ███ 49%  ")
-jalan("\033[1;97m  ████ 76%  ")
-jalan("\033[1;97m   █████ 89%  ")
-jalan("\033[1;97m    ██████ 100%  ")
-print "\033[1;91m«-------------\033[1;93mLogin With Tool\033[1;91m-------------»"
+
 
 CorrectUsername = "HTSU"
 CorrectPassword = "anonHTSU"
@@ -135,6 +128,14 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
+		jalan("\033[1;97m We Are Not Responsible To Wrong Use   ")
+jalan('\033[1;97m Username KHAN Password KHAN   ')
+jalan('\033[1;97m██ 39%  ')
+jalan("\033[1;97m ███ 49%  ")
+jalan("\033[1;97m  ████ 76%  ")
+jalan("\033[1;97m   █████ 89%  ")
+jalan("\033[1;97m    ██████ 100%  ")
+print "\033[1;91m«-------------\033[1;93mLogin With Tool\033[1;91m-------------»"
 		jalan(' \033[1;91mWarning: \033[1;97mDo Not Use Your Personal Account' )
 		jalan('          \033[1;97mUse a New Account To Login' )
 		print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
