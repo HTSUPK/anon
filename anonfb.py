@@ -100,7 +100,7 @@ print  """
 \033[1;94mWhatsapp\033[1;91m: \033[1;93m+1 (437) 371-0506
 \033[1;91m«--------------------\033[1;93m✧\033[1;91m--------------------»"""
 jalan("\033[1;93m We Are Not Responsible To Wrong Use   ")
-jalan('\033[1;97m Username KHAN Password KHAN   ')
+jalan('\033[1;97m Username HTSU Password anonHTSU   ')
 jalan('\033[1;91m██ 39%  ')
 jalan("\033[1;96m ███ 49%  ")
 jalan("\033[1;95m  ████ 76%  ")
