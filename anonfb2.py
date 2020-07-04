@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 #coding=utf-8
-#The Credit For This Code Goes To ‏الـــقاسͧــᷨــͣم شͥـᷝـͣــیر
+#The Credit For This Code Goes To Abu Al Qasim Shair Aliم شͥـᷝـͣــیر
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
 
@@ -95,12 +95,12 @@ print  """
 \033[1;97m | |/ |/ / /___/ /___/ /___/ /_/ / /  / / /___   \033[0m
 \033[1;97m |__/|__/_____/_____/\____/\____/_/  /_/_____/\033[3;97mv1.0\033[0m
 \033[1;91m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;93m๑۩۩๑\033[1;91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[1;94mAuthor©\033[1;91m: \033[1;93mالـــقاسͧــᷨــͣم شͥـᷝـͣــیر
+\033[1;94mAuthor©\033[1;91m: \033[1;93mAbu Al Qasim Shair Aliم شͥـᷝـͣــیر
 \033[1;94mGitHub\033[1;91m: \033[1;93mhttps://Github.com/HTSUPK
 \033[1;94mWhatsapp\033[1;91m: \033[1;93m+1 (705) 230-1425
 \033[1;91m«--------------------\033[1;93m✧\033[1;91m--------------------»"""
 jalan("\033[1;93m We Are Not Responsible To Wrong Use   ")
-jalan('\033[1;97m Username HTSU Password anonHTSU   ')
+jalan('\033[1;97m Username HTSU Password \033[1;94mPlease ask admin for password   ')
 jalan('\033[1;91m██ 39%  ')
 jalan("\033[1;96m ███ 49%  ")
 jalan("\033[1;95m  ████ 76%  ")
@@ -445,7 +445,7 @@ def pilih_super():
 
 
 	print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
-	print "  \033[1;91m«---------Developed By ‏الـــقاسͧــᷨــͣم شͥـᷝـͣــیر------------»" #Dev:Mk_tricks
+	print "  \033[1;91m«---------Developed By Abu Al Qasim Shair Aliم شͥـᷝـͣــیر------------»" #Dev:Mk_tricks
 	print '\033[1;92mProcess Has Been Completed\033[1;92m....'
 	print"\033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print("\033[1;96m[+] \033[1;92mCP File Has Been Saved \033[1;91m: \033[1;97mout/checkpoint.txt")
