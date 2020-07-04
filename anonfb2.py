@@ -2,10 +2,6 @@
 
 #coding=utf-8
 
-
-
-
-
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 
 from multiprocessing.pool import ThreadPool
@@ -13,10 +9,6 @@ from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 
 from mechanize import Browser
-
-
-
-
 
 reload(sys)
 
@@ -31,18 +23,11 @@ br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
 
 
-
-
-
 def keluar():
 
 	print "\033[1;96m[!] \x1b[1;91mExit"
 
 	os.sys.exit()
-
-
-
-
 
 def acak(b):
 
@@ -55,10 +40,6 @@ def acak(b):
         d += '!'+w[random.randint(0,len(w)-1)]+i
 
     return cetak(d)
-
-
-
-
 
 def cetak(b):
 
@@ -76,10 +57,6 @@ def cetak(b):
 
     sys.stdout.write(x+'\n')
 
-
-
-
-
 def jalan(z):
 
 	for e in z + '\n':
@@ -91,20 +68,35 @@ def jalan(z):
 		time.sleep(00000.1)
 
 
-
-
-
 ##### LOGO #####
 
-
 logo = """ ----っ◔◡◔-------っ◔◡◔--------💀
-//: 💀-------------っ◔◡◔-----------💀
-//__(-_-)   •||•░AFTAB░BADSHAH░--💀
-//__\(っ◔◡◔) •||•░HUNTER░BOY░--💀
-//__(-漫~\ )  ░PAK░REAL░TIGER░--💀
-\033[1;97mHTSUsmanOfficial
 
-\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"""
+//: 💀-------------っ◔◡◔-----------💀
+
+//__(-_-)   •||•░AFTAB░BADSHAH░--💀
+
+//__\(っ◔◡◔) •||•░HUNTER░BOY░--💀
+
+//__(-漫~\ )  ░PAK░REAL░TIGER░--💀
+
+//__💀\ •◈•-----█-------漫-------█------💀
+
+//__💀💀\ •◈•------█-------◔◡◔------█------💀
+
+///__💀💀💀\ •◈•-----█-------漫-------█------💀💀
+
+\033[1;91m=======================================
+
+\033[1;96mAuthor  \033[1;93m: \033[1;92m Aftab BadShah
+
+\033[1;96mInstagram \033[1;93m: \033[1;92m aftabbadshah01
+
+\033[1;96mFacebook  \033[1;93m: \033[1;92m Afii.haxer01
+
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Hunter
+
+\033[1;91m======================================="""
 
 
 
